@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /mywebsite/
+
+# Remove trailing slashes
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ $1 [L,R=301]
+
+# Handle PHP files without showing .php extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
+
+# Handle 404 errors
+ErrorDocument 404 /mywebsite/404.php
