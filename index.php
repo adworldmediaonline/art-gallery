@@ -23,21 +23,63 @@ include 'includes/image-gallery.php';
 $galleryImages = [
     [
         'url' => BASE_URL . '/images/gallery/pr-1.webp',
-        'url_2x' => BASE_URL . '/images/gallery/painting1@2x.jpg',
+        'url_2x' => BASE_URL . '/images/gallery/pr-1.webp',
         'alt' => 'Traditional Pichwai Painting',
         'title' => 'Krishna Leela',
         'description' => 'Traditional Pichwai art depicting Krishna\'s divine play'
     ],
     [
-        'url' => BASE_URL . '/images/gallery/painting2.jpg',
-        'url_2x' => BASE_URL . '/images/gallery/painting2@2x.jpg',
+      'url' => BASE_URL . '/images/gallery/pr-2.webp',
+        'url_2x' => BASE_URL . '/images/gallery/pr-2.webp',
         'alt' => 'Contemporary Pichwai Art',
         'title' => 'Modern Interpretation',
         'description' => 'Contemporary take on classic Pichwai themes'
     ],
     [
-        'url' => BASE_URL . '/images/gallery/painting3.jpg',
-        'url_2x' => BASE_URL . '/images/gallery/painting3@2x.jpg',
+         'url' => BASE_URL . '/images/gallery/pr-3.webp',
+        'url_2x' => BASE_URL . '/images/gallery/pr-3.webp',
+        'alt' => 'Detailed Pichwai Work',
+        'title' => 'Intricate Details',
+        'description' => 'Showcasing the fine details of Pichwai craftsmanship'
+    ],
+    [
+         'url' => BASE_URL . '/images/gallery/new-1.webp',
+        'url_2x' => BASE_URL . '/images/gallery/new-1.webp',
+        'alt' => 'Detailed Pichwai Work',
+        'title' => 'Intricate Details',
+        'description' => 'Showcasing the fine details of Pichwai craftsmanship'
+    ],
+    [
+         'url' => BASE_URL . '/images/gallery/new-2.webp',
+        'url_2x' => BASE_URL . '/images/gallery/new-2.webp',
+        'alt' => 'Detailed Pichwai Work',
+        'title' => 'Intricate Details',
+        'description' => 'Showcasing the fine details of Pichwai craftsmanship'
+    ],
+    [
+         'url' => BASE_URL . '/images/gallery/new-3.webp',
+        'url_2x' => BASE_URL . '/images/gallery/new-3.webp',
+        'alt' => 'Detailed Pichwai Work',
+        'title' => 'Intricate Details',
+        'description' => 'Showcasing the fine details of Pichwai craftsmanship'
+    ],
+    [
+         'url' => BASE_URL . '/images/gallery/best-1.webp',
+        'url_2x' => BASE_URL . '/images/gallery/best-1.webp',
+        'alt' => 'Detailed Pichwai Work',
+        'title' => 'Intricate Details',
+        'description' => 'Showcasing the fine details of Pichwai craftsmanship'
+    ],
+    [
+         'url' => BASE_URL . '/images/gallery/best-2.webp',
+        'url_2x' => BASE_URL . '/images/gallery/best-2.webp',
+        'alt' => 'Detailed Pichwai Work',
+        'title' => 'Intricate Details',
+        'description' => 'Showcasing the fine details of Pichwai craftsmanship'
+    ],
+    [
+         'url' => BASE_URL . '/images/gallery/best-3.webp',
+        'url_2x' => BASE_URL . '/images/gallery/best-3.webp',
         'alt' => 'Detailed Pichwai Work',
         'title' => 'Intricate Details',
         'description' => 'Showcasing the fine details of Pichwai craftsmanship'
@@ -48,33 +90,6 @@ $galleryImages = [
 renderImageGallery($galleryImages, 3);
 ?>
 
-<div class="row mt-4">
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Our Services</h5>
-                <p class="card-text">We provide high-quality services to meet your needs.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">About Us</h5>
-                <p class="card-text">Learn more about our company and our mission.</p>
-                <a href="<?php echo BASE_URL; ?>/about" class="btn btn-primary">Read More</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Contact Us</h5>
-                <p class="card-text">Get in touch with us for any inquiries.</p>
-                <a href="<?php echo BASE_URL; ?>/contact" class="btn btn-primary">Contact Now</a>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <?php include 'includes/footer.php'; ?>

@@ -1,15 +1,10 @@
 <?php include 'includes/header.php'; ?>
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <h1>Contact Us</h1>
-            <p class="lead">Get in touch with us for any inquiries.</p>
-        </div>
-    </div>
-    <div class="row mt-4">
+    <div class="row justify-content-center">
         <div class="col-md-6">
-            <form>
+            <h1 class="text-center mb-4">Contact Us</h1>
+            <form id="contactForm" onsubmit="return handleContactSubmit(event)">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
                     <input type="text" class="form-control" id="name" required>
@@ -22,16 +17,51 @@
                     <label for="message" class="form-label">Message</label>
                     <textarea class="form-control" id="message" rows="5" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
+                <button type="submit" class="btn btn-primary w-100">Send Message</button>
             </form>
-        </div>
-        <div class="col-md-6">
-            <h3>Contact Information</h3>
-            <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country</p>
-            <p><i class="fas fa-phone"></i> +1 234 567 890</p>
-            <p><i class="fas fa-envelope"></i> info@example.com</p>
         </div>
     </div>
 </div>
+
+<style>
+    .form-control {
+        border-radius: 8px;
+        border: 1px solid rgba(0,0,0,0.1);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .form-control:focus {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        border-color: #ff6b6b;
+    }
+    .btn-primary {
+        background-color: #ff6b6b;
+        border-color: #ff6b6b;
+        padding: 12px;
+        font-weight: 500;
+        border-radius: 8px;
+    }
+    .btn-primary:hover {
+        background-color: #ff5252;
+        border-color: #ff5252;
+    }
+</style>
+
+<script>
+    function handleContactSubmit(event) {
+        event.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        // Here you would typically send this data to your server
+        console.log('Form submitted:', { name, email, message });
+
+        // Redirect to thank you page
+        window.location.href = '<?php echo BASE_URL; ?>/thank-you.php';
+
+        return false;
+    }
+</script>
 
 <?php include 'includes/footer.php'; ?>

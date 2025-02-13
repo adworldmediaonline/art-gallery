@@ -196,8 +196,8 @@ function renderImageGallery($images, $columns = 3) {
             // Close modal
             modalInstance.hide();
 
-            // Show success toast or alert
-            alert('Thank you for your inquiry. We will get back to you soon!');
+            // Show success
+            window.location.href = 'thank-you.php';
 
             return false;
         }
