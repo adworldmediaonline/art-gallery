@@ -10,12 +10,12 @@
                 <div class="additional-info mb-4">
                     <p class="mb-2">In the meantime, you might want to:</p>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><i class="fas fa-palette me-2"></i>Browse our <a href="<?php echo BASE_URL; ?>/artworks" class="text-decoration-none">Premium Collection</a></li>
-                        <li class="mb-2"><i class="fas fa-star me-2"></i>Check out our <a href="<?php echo BASE_URL; ?>/bestsellers" class="text-decoration-none">Best Sellers</a></li>
-                        <li class="mb-2"><i class="fas fa-box-open me-2"></i>View our <a href="<?php echo BASE_URL; ?>/new-arrivals" class="text-decoration-none">New Arrivals</a></li>
+                        <li class="mb-2"><i class="fas fa-palette me-2"></i>Browse our <a href="<?php echo BASE_URL; ?>/artworks.php" class="text-decoration-none">Premium Collection</a></li>
+                        <li class="mb-2"><i class="fas fa-star me-2"></i>Check out our <a href="<?php echo BASE_URL; ?>/bestsellers.php" class="text-decoration-none">Best Sellers</a></li>
+                        <li class="mb-2"><i class="fas fa-box-open me-2"></i>View our <a href="<?php echo BASE_URL; ?>/new-arrivals.php" class="text-decoration-none">New Arrivals</a></li>
                     </ul>
                 </div>
-                <a href="<?php echo BASE_URL; ?>/" class="btn btn-primary px-4 py-2">Return to Homepage</a>
+                <a href="<?php echo BASE_URL; ?>/index.php" class="btn btn-primary px-4 py-2">Return to Homepage</a>
             </div>
         </div>
     </div>

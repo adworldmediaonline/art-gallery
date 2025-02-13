@@ -167,8 +167,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
-                <a class="logo-text" href="<?php echo BASE_URL; ?>/">
-                    BRAND<span>NAME</span>
+               <a class="logo-text" href="<?php echo
+                BASE_URL; ?>/">
+                    BIMBA<span>ART</span>
                 </a>
                 <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -176,23 +177,23 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo BASE_URL; ?>/">Home</a>
+                            <a class="nav-link" href="<?php echo BASE_URL; ?>/index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo BASE_URL; ?>/artworks">Premium Handmade</a>
+                            <a class="nav-link" href="<?php echo BASE_URL; ?>/artworks.php">Premium Handmade</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo BASE_URL; ?>/new-arrivals">New Arrivals</a>
+                            <a class="nav-link" href="<?php echo BASE_URL; ?>/new-arrivals.php">New Arrivals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo BASE_URL; ?>/bestsellers">Best Sellers</a>
+                            <a class="nav-link" href="<?php echo BASE_URL; ?>/bestsellers.php">Best Sellers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo BASE_URL; ?>/about">About Us</a>
+                            <a class="nav-link" href="<?php echo BASE_URL; ?>/about.php">About Us</a>
                         </li>
                     </ul>
                     <div class="d-flex align-items-center">
-                        <a href="<?php echo BASE_URL; ?>/contact" class="nav-link contact-link">Contact Us</a>
+                        <a href="<?php echo BASE_URL; ?>/contact.php" class="nav-link contact-link">Contact Us</a>
                     </div>
                 </div>
             </div>

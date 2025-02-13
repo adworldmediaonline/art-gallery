@@ -19,28 +19,40 @@ include 'includes/header.php';
 <?php
 include 'includes/image-gallery.php';
 
-// Example gallery items
+// Gallery items with complete details
 $galleryImages = [
     [
         'url' => BASE_URL . '/images/gallery/pr-1.webp',
         'url_2x' => BASE_URL . '/images/gallery/pr-1.webp',
-        'alt' => 'Traditional Pichwai Painting',
-        'title' => 'Krishna Leela',
-        'description' => 'Traditional Pichwai art depicting Krishna\'s divine play'
+        'alt' => 'Fishing In Lotus Pond Handmade Painting',
+        'title' => 'Fishing In Lotus Pond Handmade Painting For Home Wall Decor',
+        'description' => 'A stunning handmade painting depicting a serene scene of fishing in a lotus pond. This piece beautifully captures the tranquility of nature and traditional life, making it a perfect addition to your home wall decor.',
+        'artist' => 'Nisha Dial',
+        'medium' => 'Oil on Canvas',
+        'size' => '20 x 20 Inches',
+        'price' => 126000
     ],
     [
         'url' => BASE_URL . '/images/gallery/pr-2.webp',
         'url_2x' => BASE_URL . '/images/gallery/pr-2.webp',
-        'alt' => 'Contemporary Pichwai Art',
-        'title' => 'Modern Interpretation',
-        'description' => 'Contemporary take on classic Pichwai themes'
+        'alt' => 'The Blooming Glory Handmade Painting',
+        'title' => 'The Blooming Glory Handmade Painting',
+        'description' => 'A stunning handmade painting showcasing the blooming glory of nature. This masterpiece combines artistic excellence with meticulous attention to detail.',
+        'artist' => 'Nisha Dial',
+        'medium' => 'Oil on Canvas',
+        'size' => '36 x 36 inches',
+        'price' => 226800
     ],
     [
         'url' => BASE_URL . '/images/gallery/pr-3.webp',
         'url_2x' => BASE_URL . '/images/gallery/pr-3.webp',
-        'alt' => 'Detailed Pichwai Work',
-        'title' => 'Intricate Details',
-        'description' => 'Showcasing the fine details of Pichwai craftsmanship'
+        'alt' => 'Traditional Pichwai Artwork',
+        'title' => 'Traditional Pichwai Art With Gold Work',
+        'description' => 'Exquisite Pichwai painting featuring intricate gold work and traditional motifs. Each detail is carefully crafted by skilled artisans using age-old techniques.',
+        'artist' => 'Meena Sharma',
+        'medium' => 'Natural Colors with Gold Work',
+        'size' => '30 x 40 Inches',
+        'price' => 185000
     ]
 ];
 

@@ -21,26 +21,33 @@ include 'includes/image-gallery.php';
 
 // Example gallery items
 $galleryImages = [
-    [
+   [
         'url' => BASE_URL . '/images/gallery/new-1.webp',
         'url_2x' => BASE_URL . '/images/gallery/new-1.webp',
-        'alt' => 'New Arrival Artwork 1',
-        'title' => 'Contemporary Masterpiece',
-        'description' => 'A stunning new addition to our collection showcasing modern artistic brilliance'
+        'alt' => 'Orange Lily Metal Framed Floral Artwork Painting',
+        'title' => 'Orange Lily Metal Framed Floral Artwork Painting',
+        'description' => 'Beautiful metal framed floral artwork featuring vibrant orange lilies. This stunning piece adds a touch of elegance and natural beauty to any space.',
+        'original_price' => 19800,
+        'price' => 16500,
+        'discount_percentage' => 17
     ],
     [
         'url' => BASE_URL . '/images/gallery/new-2.webp',
         'url_2x' => BASE_URL . '/images/gallery/new-2.webp',
-        'alt' => 'New Arrival Artwork 2',
-        'title' => 'Traditional Innovation',
-        'description' => 'Where traditional techniques meet contemporary vision'
+        'alt' => 'Rosa Gallica Framed Floral Artwork Painting',
+        'title' => 'Rosa Gallica Framed Floral Artwork Painting',
+        'description' => 'Elegant framed floral artwork featuring the classic Rosa Gallica. This timeless piece brings a touch of botanical beauty and sophistication to any interior.',
+        'original_price' => 19800,
+        'price' => 16500,
+        'discount_percentage' => 17
     ],
     [
         'url' => BASE_URL . '/images/gallery/new-3.webp',
         'url_2x' => BASE_URL . '/images/gallery/new-3.webp',
-        'alt' => 'New Arrival Artwork 3',
-        'title' => 'Artistic Excellence',
-        'description' => 'The latest masterpiece showcasing exceptional artistic skill and creativity'
+        'alt' => 'Pink Lily Metal Framed Floral Artwork Painting',
+        'title' => 'Pink Lily Metal Framed Floral Artwork Painting',
+        'description' => 'Exquisite metal framed floral artwork showcasing delicate pink lilies. This elegant piece combines natural beauty with contemporary framing to create a stunning focal point for any room.',
+        'price_on_inquiry' => true
     ]
 ];
 

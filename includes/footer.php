@@ -4,12 +4,12 @@
         <div class="container-fluid">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0" style="color: #333;">&copy; 2024 BRAND<span style="color: #ff6b6b;">NAME</span>. All rights reserved.</p>
+                    <p class="mb-0" style="color: #333;">&copy; 2025 BIMBA<span style="color: #ff6b6b;">ART</span>. All rights reserved.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <a href="<?php echo BASE_URL; ?>/privacy-policy" class="text-decoration-none me-3" style="color: #333; transition: color 0.3s;">Privacy Policy</a>
+                    <a href="<?php echo BASE_URL; ?>/privacy-policy.php" class="text-decoration-none me-3" style="color: #333; transition: color 0.3s;">Privacy Policy</a>
                     <span style="color: #333;">|</span>
-                    <a href="<?php echo BASE_URL; ?>/terms" class="text-decoration-none ms-3" style="color: #333; transition: color 0.3s;">Terms & Conditions</a>
+                    <a href="<?php echo BASE_URL; ?>/terms.php" class="text-decoration-none ms-3" style="color: #333; transition: color 0.3s;">Terms & Conditions</a>
                 </div>
             </div>
         </div>

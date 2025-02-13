@@ -10,8 +10,16 @@
                     <input type="text" class="form-control" id="name" required>
                 </div>
                 <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
+                    <label for="email" class="form-label">Email ID</label>
                     <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" required>
+                </div>
+                <div class="mb-3">
+                    <label for="address" class="form-label">Address</label>
+                    <textarea class="form-control" id="address" rows="2" required></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Message</label>
@@ -52,10 +60,12 @@
 
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+        const address = document.getElementById('address').value;
         const message = document.getElementById('message').value;
 
         // Here you would typically send this data to your server
-        console.log('Form submitted:', { name, email, message });
+        console.log('Form submitted:', { name, email, phone, address, message });
 
         // Redirect to thank you page
         window.location.href = '<?php echo BASE_URL; ?>/thank-you.php';

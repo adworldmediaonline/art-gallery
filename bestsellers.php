@@ -24,23 +24,38 @@ $galleryImages = [
     [
         'url' => BASE_URL . '/images/gallery/best-1.webp',
         'url_2x' => BASE_URL . '/images/gallery/best-1.webp',
-        'alt' => 'Best Selling Artwork 1',
-        'title' => 'Customer Favorite',
-        'description' => 'One of our most popular pieces, beloved for its stunning detail and composition'
+        'alt' => 'Shrinath Ji (Shri Krishna) With Cows Gold Pichwai Art Painting',
+        'title' => 'Shrinath Ji (Shri Krishna) With Cows Gold Pichwai Art Painting',
+        'description' => 'A magnificent Pichwai artwork depicting Shrinath Ji with cows, featuring intricate gold work. This traditional piece showcases the divine beauty of Krishna in the classic Pichwai style.',
+        'artist' => 'TheBimba',
+        'medium' => 'Pichwai Art',
+        'original_price' => 2468,
+        'price' => 1899,
+        'discount_percentage' => 23
     ],
     [
         'url' => BASE_URL . '/images/gallery/best-2.webp',
         'url_2x' => BASE_URL . '/images/gallery/best-2.webp',
-        'alt' => 'Best Selling Artwork 2',
-        'title' => 'Timeless Classic',
-        'description' => 'A masterpiece that continues to captivate art enthusiasts'
+        'alt' => 'The Legend Of Ramayana Pattachitra Art Painting For Home Wall Art Decor',
+        'title' => 'The Legend Of Ramayana Pattachitra Art Painting For Home Wall Art Decor',
+        'description' => 'A stunning Pattachitra art painting depicting the legendary tale of Ramayana. This traditional piece brings the epic story to life through intricate details and masterful artistry.',
+        'artist' => 'TheBimba',
+        'medium' => 'Pattachitra Art',
+        'original_price' => 2468,
+        'price' => 1899,
+        'discount_percentage' => 23
     ],
     [
         'url' => BASE_URL . '/images/gallery/best-3.webp',
         'url_2x' => BASE_URL . '/images/gallery/best-3.webp',
-        'alt' => 'Best Selling Artwork 3',
-        'title' => 'Collector\'s Choice',
-        'description' => 'Highly sought-after piece that exemplifies artistic excellence'
+        'alt' => 'Auspicious Tree Of Life Madhubani Art Painting For Home Wall Art Decor',
+        'title' => 'Auspicious Tree Of Life Madhubani Art Painting For Home Wall Art Decor',
+        'description' => 'A beautiful Madhubani art painting featuring the auspicious Tree of Life motif. This traditional piece showcases the rich cultural heritage of Madhubani art with intricate patterns and symbolic elements.',
+        'artist' => 'TheBimba',
+        'medium' => 'Madhubani Art',
+        'original_price' => 2468,
+        'price' => 1899,
+        'discount_percentage' => 23
     ]
 ];
 
